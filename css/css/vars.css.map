@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAQA,UAIC;EAHG,WAAW,EAAE,aAAa;EAC1B,GAAG,EAAE,sCAAsC;EAC3C,WAAW,EAAE,GAAG;AAGpB,UAIC;EAHG,WAAW,EAAE,cAAc;EAC3B,GAAG,EAAE,kCAAkC;EACvC,WAAW,EAAE,IAAI",
+"sources": ["../sass/vars.scss"],
+"names": [],
+"file": "vars.css"
+}

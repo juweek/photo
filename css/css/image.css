@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Proza Libre';
+  src: url("../fonts/ProzaLibre-Regular.ttf");
+  font-weight: 400; }
+@font-face {
+  font-family: 'NHaasGrotesk';
+  src: url("../fonts/NHaasGroteskBd.ttf");
+  font-weight: bold; }
+.body__container--image {
+  position: relative; }
+
+.image__container--me img {
+  position: relative;
+  margin: 0 auto; }
+
+@media screen and (min-width: 740px) {
+  .image__container--me img {
+    max-width: 180px; } }
+@media screen and (min-width: 980px) {
+  .image__container--me img {
+    max-width: 240px; } }
+.image__container--sun img {
+  position: absolute; }
+
+@media screen and (min-width: 740px) {
+  .image__container--sun img {
+    width: 180px;
+    top: 40px;
+    right: 40px; } }
+@media screen and (min-width: 980px) {
+  .image__container--me img {
+    width: 240px;
+    top: 60px;
+    right: 80px; } }
+.image__container--city img {
+  position: absolute; }
+
+@media screen and (min-width: 740px) {
+  .image__container--city img {
+    max-width: 180px;
+    left: 200px;
+    top: 200px; } }
+@media screen and (min-width: 980px) {
+  .image__container--city img {
+    max-width: 340px;
+    left: 400px;
+    top: 400px; } }
+
+/*# sourceMappingURL=image.css.map */

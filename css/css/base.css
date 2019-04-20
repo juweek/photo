@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Proza Libre';
+  src: url("../fonts/ProzaLibre-Regular.ttf");
+  font-weight: 400; }
+@font-face {
+  font-family: 'NHaasGrotesk';
+  src: url("../fonts/NHaasGroteskBd.ttf");
+  font-weight: bold; }
+html {
+  box-sizing: border-box; }
+
+body {
+  margin: 0 auto;
+  background-color: #F1F0EC;
+  color: #333;
+  font-family: 'NHaasGrotesk'; }
+
+.body__container--image {
+  display: flex;
+  flex-direction: row;
+  max-width: 90vw;
+  margin: 0 auto; }
+
+@media screen and (min-width: 740px) {
+  .body__container--image {
+    max-width: 70%; } }
+@media screen and (min-width: 980px) {
+  .body__container--image {
+    max-width: 80%; } }
+@media screen and (min-width: 1460px) {
+  .body__container--image {
+    max-width: 40%; } }
+
+/*# sourceMappingURL=base.css.map */

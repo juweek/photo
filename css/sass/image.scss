@@ -1,0 +1,83 @@
+@import 'vars';
+
+.body__container--image {
+    position: relative;
+}
+
+//////me container
+.image__container--me {
+    img {
+        position: relative;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: $tablet) {
+    .image__container--me {
+        img {
+            max-width: 180px;
+        }
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .image__container--me {
+        img {
+            max-width: 240px;
+        }
+    }
+}
+
+//////sun container
+.image__container--sun {
+    img {
+        position: absolute;
+    }
+}
+
+@media screen and (min-width: $tablet) {
+    .image__container--sun {
+        img {
+            width: 180px;
+            top: 40px;
+            right: 40px;
+        }
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .image__container--me {
+        img {
+            width: 240px;
+            top: 60px;
+            right: 80px;
+        }
+    }
+}
+
+//////city container
+.image__container--city {
+    img {
+        position: absolute;
+    }
+}
+
+@media screen and (min-width: $tablet) {
+    .image__container--city {
+        img {
+            max-width: 180px;
+            left: 200px;
+            top: 200px;
+        }
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .image__container--city {
+        img {
+            max-width: 340px;
+            left: 400px;
+            top: 400px;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Proza Libre';
+  src: url("../fonts/ProzaLibre-Regular.ttf");
+  font-weight: 400; }
+@font-face {
+  font-family: 'NHaasGrotesk';
+  src: url("../fonts/NHaasGroteskBd.ttf");
+  font-weight: bold; }
+
+/*# sourceMappingURL=vars.css.map */

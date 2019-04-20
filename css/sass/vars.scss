@@ -1,0 +1,19 @@
+$mobile: 319px;
+$mobileBig: 370px;
+$mobileLandscape: 480px;
+$phablet: 660px;
+$tablet: 740px;
+$desktop: 980px;
+$wide: 1460px;
+
+@font-face {
+    font-family: 'Proza Libre';
+    src: url('../fonts/ProzaLibre-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'NHaasGrotesk';
+    src: url('../fonts/NHaasGroteskBd.ttf');
+    font-weight: bold;
+}
