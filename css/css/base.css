@@ -6,29 +6,22 @@
   font-family: 'NHaasGrotesk';
   src: url("../fonts/NHaasGroteskBd.ttf");
   font-weight: bold; }
-html {
-  box-sizing: border-box; }
-
 body {
-  margin: 0 auto;
   background-color: #F1F0EC;
   color: #333;
   font-family: 'NHaasGrotesk'; }
 
 .body__container--image {
-  display: flex;
-  flex-direction: row;
-  max-width: 90vw;
-  margin: 0 auto; }
+  width: 100vw;
+  height: 900vh; }
+  .body__container--image div {
+    position: fixed; }
 
-@media screen and (min-width: 740px) {
-  .body__container--image {
-    max-width: 70%; } }
-@media screen and (min-width: 980px) {
-  .body__container--image {
-    max-width: 80%; } }
-@media screen and (min-width: 1460px) {
-  .body__container--image {
-    max-width: 40%; } }
+.body__container--furniture {
+  position: fixed; }
+  .body__container--furniture h3 {
+    left: 5%; }
+  .body__container--furniture h4 {
+    right: 5%; }
 
 /*# sourceMappingURL=base.css.map */

@@ -1,83 +1,61 @@
 @import 'vars';
 
-.body__container--image {
-    position: relative;
-}
-
-//////me container
+//////ya boi
 .image__container--me {
+    left: 30%;
+    top: 20%;
+    
     img {
-        position: relative;
-        margin: 0 auto;
+        max-width: 180px;
     }
-}
-
-@media screen and (min-width: $tablet) {
-    .image__container--me {
+    @media screen and (min-width: $tablet) {
         img {
-            max-width: 180px;
+                max-width: 180px;
         }
     }
-}
-
-@media screen and (min-width: $desktop) {
-    .image__container--me {
+    @media screen and (min-width: $desktop) {
+        left: 20%;
         img {
             max-width: 240px;
         }
     }
 }
 
-//////sun container
+//////the sun
 .image__container--sun {
+    right: 10%;
+    top: 5%;
     img {
-        position: absolute;
+        max-width: 80px;
     }
-}
-
-@media screen and (min-width: $tablet) {
-    .image__container--sun {
+    @media screen and (min-width: $tablet) {
         img {
-            width: 180px;
-            top: 40px;
-            right: 40px;
+                max-width: 160px;
         }
     }
-}
-
-@media screen and (min-width: $desktop) {
-    .image__container--me {
-        img {
-            width: 240px;
-            top: 60px;
-            right: 80px;
-        }
+    @media screen and (min-width: $desktop) {
+        right: 20%;
     }
 }
 
-//////city container
+//////the city
 .image__container--city {
+    right: 10%;
+    bottom: 0%;
     img {
-        position: absolute;
+        max-width: 80vw;
     }
-}
-
-@media screen and (min-width: $tablet) {
-    .image__container--city {
+    @media screen and (min-width: $tablet) {
         img {
-            max-width: 180px;
-            left: 200px;
-            top: 200px;
+            max-width: 480px;
+            left: 00%;
+            top: 5%;
         }
     }
-}
-
-@media screen and (min-width: $desktop) {
-    .image__container--city {
+    @media screen and (min-width: $desktop) {
+        top: 45%;
         img {
-            max-width: 340px;
-            left: 400px;
-            top: 400px;
+                max-width: 640px;
         }
     }
 }

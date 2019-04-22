@@ -1,37 +1,29 @@
 @import 'vars';
 
-html {
-    box-sizing: border-box;
-}
-
 body {
-    margin: 0 auto;
     background-color: #F1F0EC;
     color: #333;
     font-family: 'NHaasGrotesk';
 }
 
+//////outside frame of the image
 .body__container--image {
-    display: flex;
-    flex-direction: row;
-    max-width: 90vw;
-    margin: 0 auto;
-}
+    width: 100vw;
+    height: 900vh;
 
-@media screen and (min-width: $tablet) {
-    .body__container--image {
-        max-width: 70%;
+    div {
+        position: fixed;
     }
 }
 
-@media screen and (min-width: $desktop) {
-    .body__container--image {
-        max-width: 80%;
-    }
-}
+.body__container--furniture {
+    position: fixed;
 
-@media screen and (min-width: $wide) {
-    .body__container--image {
-        max-width: 40%;
+    h3 {
+        left: 5%;
+    }
+
+    h4 {
+        right: 5%;
     }
 }

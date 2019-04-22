@@ -6,44 +6,46 @@
   font-family: 'NHaasGrotesk';
   src: url("../fonts/NHaasGroteskBd.ttf");
   font-weight: bold; }
-.body__container--image {
-  position: relative; }
-
-.image__container--me img {
-  position: relative;
-  margin: 0 auto; }
-
-@media screen and (min-width: 740px) {
+.image__container--me {
+  left: 30%;
+  top: 20%; }
   .image__container--me img {
-    max-width: 180px; } }
-@media screen and (min-width: 980px) {
-  .image__container--me img {
-    max-width: 240px; } }
-.image__container--sun img {
-  position: absolute; }
+    max-width: 180px; }
+  @media screen and (min-width: 740px) {
+    .image__container--me img {
+      max-width: 180px; } }
+  @media screen and (min-width: 980px) {
+    .image__container--me {
+      left: 20%; }
+      .image__container--me img {
+        max-width: 240px; } }
 
-@media screen and (min-width: 740px) {
+.image__container--sun {
+  right: 10%;
+  top: 5%; }
   .image__container--sun img {
-    width: 180px;
-    top: 40px;
-    right: 40px; } }
-@media screen and (min-width: 980px) {
-  .image__container--me img {
-    width: 240px;
-    top: 60px;
-    right: 80px; } }
-.image__container--city img {
-  position: absolute; }
+    max-width: 80px; }
+  @media screen and (min-width: 740px) {
+    .image__container--sun img {
+      max-width: 160px; } }
+  @media screen and (min-width: 980px) {
+    .image__container--sun {
+      right: 20%; } }
 
-@media screen and (min-width: 740px) {
+.image__container--city {
+  right: 10%;
+  bottom: 0%; }
   .image__container--city img {
-    max-width: 180px;
-    left: 200px;
-    top: 200px; } }
-@media screen and (min-width: 980px) {
-  .image__container--city img {
-    max-width: 340px;
-    left: 400px;
-    top: 400px; } }
+    max-width: 80vw; }
+  @media screen and (min-width: 740px) {
+    .image__container--city img {
+      max-width: 480px;
+      left: 00%;
+      top: 5%; } }
+  @media screen and (min-width: 980px) {
+    .image__container--city {
+      top: 45%; }
+      .image__container--city img {
+        max-width: 640px; } }
 
 /*# sourceMappingURL=image.css.map */
