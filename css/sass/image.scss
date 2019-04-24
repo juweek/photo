@@ -14,15 +14,15 @@
         }
     }
     @media screen and (min-width: $desktop) {
-        left: 20%;
+        left: 30%;
         img {
-            max-width: 240px;
+            max-width: 200px;
         }
     }
     @media screen and (min-width: $wide) {
         left: 20%;
         img {
-            max-width: 340px;
+            max-width: 280px;
         }
     }
 }
@@ -53,11 +53,17 @@
 
 //////the city
 .image__container--city {
-    right: 20%;
-    bottom: 0%;
+    left: -10%;
+    bottom: 10%;
+
     img {
-        max-width: 70vw;
+        max-width: 80vw;
         animation: move 2s linear 0.01s infinite alternate;
+
+        &:last-of-type {
+            margin-top: -100px;
+            animation: move 3s linear 0.01s infinite alternate;
+        }
     }
     @media screen and (min-width: $tablet) {
         img {
@@ -67,7 +73,8 @@
         }
     }
     @media screen and (min-width: $desktop) {
-        top: 45%;
+        top: 55%;
+        left: 0%;
         img {
                 max-width: 540px;
         }
