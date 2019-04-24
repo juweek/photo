@@ -3,7 +3,6 @@
 body {
     background-color: #F1F0EC;
     color: #333;
-    font-family: 'NHaasGrotesk';
 }
 
 //////outside frame of the image
@@ -18,6 +17,9 @@ body {
 
 .body__container--furniture {
     position: fixed;
+    font-family: 'Neucha';
+    font-size: 1.6em;
+    font-weight: 400;
 
     h3 {
         left: 5%;
@@ -25,5 +27,10 @@ body {
 
     h4 {
         right: 5%;
+        display: none;
+
+        @media screen and (min-width: $tablet) {
+            display: block;
+        }
     }
 }

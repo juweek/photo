@@ -1,51 +1,58 @@
-@font-face {
-  font-family: 'Proza Libre';
-  src: url("../fonts/ProzaLibre-Regular.ttf");
-  font-weight: 400; }
-@font-face {
-  font-family: 'NHaasGrotesk';
-  src: url("../fonts/NHaasGroteskBd.ttf");
-  font-weight: bold; }
 .image__container--me {
   left: 30%;
-  top: 20%; }
+  top: 15%; }
   .image__container--me img {
     max-width: 180px; }
   @media screen and (min-width: 740px) {
-    .image__container--me img {
-      max-width: 180px; } }
+    .image__container--me {
+      left: 15%; }
+      .image__container--me img {
+        max-width: 180px; } }
   @media screen and (min-width: 980px) {
     .image__container--me {
       left: 20%; }
       .image__container--me img {
         max-width: 240px; } }
+  @media screen and (min-width: 1460px) {
+    .image__container--me {
+      left: 20%; }
+      .image__container--me img {
+        max-width: 340px; } }
 
 .image__container--sun {
   right: 10%;
   top: 5%; }
   .image__container--sun img {
-    max-width: 80px; }
+    max-width: 80px;
+    animation: rotate 30s linear 0.01s infinite; }
   @media screen and (min-width: 740px) {
     .image__container--sun img {
       max-width: 160px; } }
   @media screen and (min-width: 980px) {
     .image__container--sun {
       right: 20%; } }
+  @media screen and (min-width: 1460px) {
+    .image__container--sun img {
+      max-width: 240px; } }
 
 .image__container--city {
-  right: 10%;
+  right: 20%;
   bottom: 0%; }
   .image__container--city img {
-    max-width: 80vw; }
+    max-width: 70vw;
+    animation: move 2s linear 0.01s infinite alternate; }
   @media screen and (min-width: 740px) {
     .image__container--city img {
-      max-width: 480px;
-      left: 00%;
+      max-width: 420px;
+      left: 0%;
       top: 5%; } }
   @media screen and (min-width: 980px) {
     .image__container--city {
       top: 45%; }
       .image__container--city img {
-        max-width: 640px; } }
+        max-width: 540px; } }
+  @media screen and (min-width: 1460px) {
+    .image__container--city img {
+      max-width: 640px; } }
 
 /*# sourceMappingURL=image.css.map */

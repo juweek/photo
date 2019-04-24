@@ -1,15 +1,6 @@
-@font-face {
-  font-family: 'Proza Libre';
-  src: url("../fonts/ProzaLibre-Regular.ttf");
-  font-weight: 400; }
-@font-face {
-  font-family: 'NHaasGrotesk';
-  src: url("../fonts/NHaasGroteskBd.ttf");
-  font-weight: bold; }
 body {
   background-color: #F1F0EC;
-  color: #333;
-  font-family: 'NHaasGrotesk'; }
+  color: #333; }
 
 .body__container--image {
   width: 100vw;
@@ -18,10 +9,17 @@ body {
     position: fixed; }
 
 .body__container--furniture {
-  position: fixed; }
+  position: fixed;
+  font-family: 'Neucha';
+  font-size: 1.6em;
+  font-weight: 400; }
   .body__container--furniture h3 {
     left: 5%; }
   .body__container--furniture h4 {
-    right: 5%; }
+    right: 5%;
+    display: none; }
+    @media screen and (min-width: 740px) {
+      .body__container--furniture h4 {
+        display: block; } }
 
 /*# sourceMappingURL=base.css.map */

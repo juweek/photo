@@ -20,6 +20,5 @@ function bindings() {
 function onScroll() {
     windowTop = window.pageYOffset || document.documentElement.scrollTop;
     var modulo = windowTop % 1000;
-    $('.image__container--sun').css('transform', 'rotate(' + modulo/15 + 'deg)');
-    $('.image__container--city').css('transform', 'translateX(' + (modulo%50) + 'px)');
+    $('.image__container--sun').css('transform', 'rotate(' + ((modulo/1000) * 360) + 'deg)');
 }
